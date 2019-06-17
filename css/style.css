@@ -36,7 +36,7 @@
 	border-bottom: solid #fcac45 4px;
 }
    
-.title-welcome-block{
+.welcome-block__title{
 	/* приветственный тайтл вынесен отдельно из за псевдоэлемента*/
 	font-size: 44px;
 	color: #999999;
@@ -44,6 +44,9 @@
 	text-transform: uppercase;
 }
 
+.welcome-block__sub-title{
+	color: #949494;
+}
 .title{
 	font-size: 44px;
 	position: relative;
@@ -85,4 +88,8 @@
 
 .title-welcome-block_yellow-text{
 	color: #fcac45;
+}
+
+.welcome-block{
+	padding: 25px 0 420px 0;
 }
