@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Myriad Pro Regular';
+}
+
+.container{
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 10px;
+	text-align: center;
+}
+
+.blok-bg-black{
+	background-color: #000;
+}
+
+.menu{
+	max-width: 550px;
+	width: 100%;
+}
+.menu__item{
+	list-style: none;
+}
+
+.style-link{
+	text-decoration: none;
+	color: #fff;
+}
+
+.style-link:hover{
+	color: #292929;
+	padding-bottom: 5px;
+	border-bottom: solid #fcac45 4px;
+}
+   
+.title-welcome-block{
+	/* приветственный тайтл вынесен отдельно из за псевдоэлемента*/
+	font-size: 44px;
+	color: #999999;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.title{
+	font-size: 44px;
+	position: relative;
+	text-align: center;
+}
+
+.title:before{
+	/* элемент подчёркивания снизу заголовка */
+	content: '';
+	position: absolute;
+	max-width: 100px;
+	width: 100%;
+	background-color: #fcac45;
+	height: 5px;
+	top: 65px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.flex_pozition{
+	display: flex;
+	justify-content: space-between;
+}
+
+.text_upp{
+	text-transform: uppercase;
+}
+
+.logo{
+	font-size: 24px;
+	color: #fff;
+}
+
+.header{
+	align-items: center;
+	margin-bottom: 225px;
+	height: 25px;
+}
+
+.title-welcome-block_yellow-text{
+	color: #fcac45;
+}
